@@ -1,0 +1,457 @@
+{
+    "Name": "Hazard 6x2 (60 nitra) Mini Edition",
+    "Description": "Hazard 6x2 60 nitra but smol",
+    "Caps": {
+        "max_active_swarmers": [
+            90.0,
+            120.0,
+            180.0,
+            180.0
+        ],
+        "max_active_enemies": [
+            90.0,
+            120.0,
+            180.0,
+            180.0
+        ]
+    },
+    "Resupply": {
+        "cost": [
+            60.0
+        ]
+    },
+    "DifficultySetting": {
+        "ExtraLargeEnemyDamageResistance": [
+            1.0,
+            1.3,
+            1.7,
+            2.1
+        ],
+        "ExtraLargeEnemyDamageResistanceB": [
+            1.0,
+            1.3,
+            1.5,
+            1.7
+        ],
+        "ExtraLargeEnemyDamageResistanceC": [
+            1.0,
+            1.3,
+            1.7,
+            2.1
+        ],
+        "ExtraLargeEnemyDamageResistanceD": [
+            1.5,
+            1.55,
+            1.75,
+            1.9
+        ],
+        "EnemyDamageResistance": [
+            1.4,
+            1.5,
+            1.6,
+            1.75
+        ],
+        "SmallEnemyDamageResistance": [
+            1.2
+        ],
+        "EnemyCountModifier": [
+            1.9,
+            2.1,
+            2.7,
+            3.3
+        ],
+        "EnemyDamageModifier": [
+            3.3,
+            3.65,
+            3.9,
+            4.1
+        ],
+        "EncounterDifficulty": [
+            {
+                "weight": 1.0,
+                "min": 550.0,
+                "max": 650.0
+            },
+            {
+                "weight": 6.0,
+                "min": 450.0,
+                "max": 750.0
+            },
+            {
+                "weight": 1.0,
+                "min": 550.0,
+                "max": 650.0
+            }
+        ],
+        "StationaryDifficulty": [
+            {
+                "weight": 1.0,
+                "min": 350.0,
+                "max": 450.0
+            }
+        ],
+        "EnemyWaveInterval": [
+            {
+                "weight": 7.5,
+                "min": 125.0,
+                "max": 165.0
+            }
+        ],
+        "EnemyNormalWaveInterval": [
+            {
+                "weight": 4.0,
+                "min": 170.0,
+                "max": 210.0
+            },
+            {
+                "weight": 2.0,
+                "min": 180.0,
+                "max": 190.0
+            }
+        ],
+        "EnemyNormalWaveDifficulty": [
+            {
+                "weight": 1.0,
+                "min": 550.0,
+                "max": 650.0
+            }
+        ],
+        "EnemyDiversity": [
+            {
+                "weight": 2.0,
+                "min": 4.0,
+                "max": 4.0
+            },
+            {
+                "weight": 8.0,
+                "min": 6.0,
+                "max": 6.0
+            }
+        ],
+        "StationaryEnemyDiversity": [
+            {
+                "weight": 1.0,
+                "min": 4.0,
+                "max": 4.0
+            }
+        ],
+        "VeteranNormal": [
+            {
+                "weight": 2.0,
+                "min": 0.0,
+                "max": 0.0
+            },
+            {
+                "weight": 2.0,
+                "min": 0.5,
+                "max": 0.8
+            }
+        ],
+        "VeteranLarge": [
+            {
+                "weight": 1.0,
+                "min": 0.2,
+                "max": 0.2
+            }
+        ],
+        "EnvironmentalDamageModifier": 1.4,
+        "PointExtractionScalar": 1.4,
+        "FriendlyFireModifier": 0.9,
+        "SpeedModifier": 1.25,
+        "AttackCooldownModifier": 1.75,
+        "ProjectileSpeedModifier": 1.9,
+        "BaseHazard": "Hazard 5"
+    },
+    "Pools": {
+        "MinPoolSize": 14.0,
+        "DisruptiveEnemyPoolCount": {
+            "min": 4.0,
+            "max": 8.0
+        },
+        "StationaryEnemyCount": {
+            "min": 6.0,
+            "max": 6.0
+        }
+    },
+    "Enemies": {
+        "ED_BarrageInfector": {
+            "Scale": 0.1
+        },
+        "ED_Bomber": {
+            "Scale": 0.3
+        },
+        "ED_Bomber_Explosive": {
+            "Scale": 0.3
+        },
+        "ED_Bomber_Ice": {
+            "Scale": 0.3
+        },
+        "ED_Bomber_Rockpox_Plague": {
+            "Scale": 0.3
+        },
+        "ED_CaveLeech": {
+            "Scale": 0.5
+        },
+        "ED_Crawler": {
+            "Scale": 0.3
+        },
+        "ED_EggSpider": {
+            "Scale": 0.4
+        },
+        "ED_FacilityTurret_Barrier": {
+            "Scale": 0.5
+        },
+        "ED_FacilityTurret_Burst": {
+            "Scale": 0.5
+        },
+        "ED_FacilityTurret_Sniper": {
+            "Scale": 0.5
+        },
+        "ED_Flea": {
+            "Scale": 0.3
+        },
+        "ED_FlyingSmartRock": {
+            "Scale": 0.4
+        },
+        "ED_Grabber": {
+            "Scale": 0.5
+        },
+        "ED_GreatEggHunt_SpringBunny": {
+            "Scale": 0.3
+        },
+        "ED_Halloween_Skull": {
+            "Scale": 0.3
+        },
+        "ED_HydraWeed": {
+            "Scale": 0.4
+        },
+        "ED_InfectedMule": {
+            "Scale": 0.2
+        },
+        "ED_InfestationLarva": {
+            "Scale": 0.3
+        },
+        "ED_InsectSwarm_Spawner": {
+            "Scale": 0.35
+        },
+        "ED_JellyBreeder": {
+            "Scale": 0.3
+        },
+        "ED_JellyBreeder_RockpoxPlague": {
+            "Scale": 0.2
+        },
+        "ED_Jelly_Spawn": {
+            "Scale": 0.3
+        },
+        "ED_Jelly_Swarmer": {
+            "Scale": 0.3
+        },
+        "ED_Mactera_Shooter_Amber": {
+            "Scale": 0.5
+        },
+        "ED_Mactera_Shooter_HeavyVeteran": {
+            "Scale": 0.4
+        },
+        "ED_Mactera_Shooter_Normal": {
+            "Scale": 0.5
+        },
+        "ED_Mactera_Shooter_heavyVeteran": {
+            "Scale": 0.4
+        },
+        "ED_Mactera_TripleShooter": {
+            "Scale": 0.35
+        },
+        "ED_Nisse": {
+            "Scale": 0.2
+        },
+        "ED_PatrolBot": {
+            "Scale": 0.5
+        },
+        "ED_PatrolBot_Caretaker": {
+            "Scale": 0.5
+        },
+        "ED_PlagueLarva": {
+            "Scale": 0.3
+        },
+        "ED_PlagueShark": {
+            "Scale": 0.1
+        },
+        "ED_Prospector": {
+            "Scale": 0.2
+        },
+        "ED_PumpkinLootBug": {
+            "Scale": 0.3
+        },
+        "ED_Shark": {
+            "Scale": 0.45
+        },
+        "ED_ShootingPlant": {
+            "Scale": 0.2
+        },
+        "ED_Shredder": {
+            "Scale": 0.3
+        },
+        "ED_SpiderSpawner": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Amber_Shooter": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Boss_Heavy": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Boss_TwinA": {
+            "Scale": 0.4
+        },
+        "ED_Spider_Boss_TwinB": {
+            "Scale": 0.4
+        },
+        "ED_Spider_Buffer": {
+            "Scale": 0.35
+        },
+        "ED_Spider_Charger": {
+            "Scale": 0.35
+        },
+        "ED_Spider_Drone": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Exploder": {
+            "Scale": 0.55
+        },
+        "ED_Spider_ExploderTank": {
+            "Scale": 0.25
+        },
+        "ED_Spider_ExploderTankGhost": {
+            "Scale": 0.25
+        },
+        "ED_Spider_ExploderTank_King": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Exploder_Rockpox_Plague": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Exploder_Warning": {
+            "Scale": 0.55
+        },
+        "ED_Spider_Grunt": {
+            "Scale": 0.55
+        },
+        "ED_Spider_GruntTutorial": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Grunt_Attacker": {
+            "Scale": 0.5
+        },
+        "ED_Spider_Grunt_Guard": {
+            "Scale": 0.5
+        },
+        "ED_Spider_Grunt_Ice": {
+            "Scale": 0.55
+        },
+        "ED_Spider_Grunt_Mutated": {
+            "Scale": 0.55
+        },
+        "ED_Spider_Grunt_Rock": {
+            "Scale": 0.55
+        },
+        "ED_Spider_Grunt_Rock_Warning": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Grunt_RockpoxPlague": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Hoarder": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Lobber": {
+            "Scale": 0.1
+        },
+        "ED_Spider_RapidShooter": {
+            "Scale": 0.35
+        },
+        "ED_Spider_ShieldTank": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Shooter": {
+            "Scale": 0.5
+        },
+        "ED_Spider_ShooterQueen": {
+            "Scale": 0.1
+        },
+        "ED_Spider_Shooter_Ground": {
+            "Scale": 0.1
+        },
+        "ED_Spider_Shooter_Rockpox_Plague": {
+            "Scale": 0.1
+        },
+        "ED_Spider_Spawn": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Spitter": {
+            "Scale": 0.5
+        },
+        "ED_Spider_Stalker": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Stinger": {
+            "Scale": 0.2
+        },
+        "ED_Spider_Swarmer": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Swarmer_Ice": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Swarmer_Mutated": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Swarmer_Pheromone_NOFX": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Tank": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Tank_Amber": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Tank_Boss": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Tank_HeavySpawn": {
+            "Scale": 0.35
+        },
+        "ED_Spider_Tank_Ice": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Tank_Mutated": {
+            "Scale": 0.35
+        },
+        "ED_Spider_Tank_Rock": {
+            "Scale": 0.35
+        },
+        "ED_Spider_Tank_Rock_Warning": {
+            "Scale": 0.3
+        },
+        "ED_Spider_Tank_RockpoxPlague": {
+            "Scale": 0.3
+        },
+        "ED_TentaclePlant": {
+            "Scale": 0.3
+        },
+        "ED_Terminator": {
+            "Scale": 0.3
+        },
+        "ED_TunnelSwarmer": {
+            "Scale": 0.3
+        },
+        "ED_WalkingPlagueheart": {
+            "Scale": 0.3
+        },
+        "ED_Woodlouse": {
+            "Scale": 0.4
+        },
+        "ED_Woodlouse_Youngling": {
+            "Scale": 0.6
+        }
+    }
+}
