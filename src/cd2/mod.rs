@@ -46,6 +46,7 @@ pub struct WeightedRandInterval {
 /// There are soft caps on enemy/swarmer/critter counts. Above these caps, enemies will despawn when
 /// the game spawns new enemies.
 #[derive(Debug, Serialize, Deserialize, Default)]
+#[serde(rename_all = "PascalCase")]
 pub struct Caps {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub max_active_swarmers: Option<Value>,

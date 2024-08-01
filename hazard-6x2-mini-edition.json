@@ -2,13 +2,13 @@
     "Name": "Hazard 6x2 (60 nitra) Mini Edition",
     "Description": "Hazard 6x2 60 nitra but smol",
     "Caps": {
-        "max_active_swarmers": [
+        "MaxActiveSwarmers": [
             90.0,
             120.0,
             180.0,
             180.0
         ],
-        "max_active_enemies": [
+        "MaxActiveEnemies": [
             90.0,
             120.0,
             180.0,
